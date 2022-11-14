@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+
+}
+
+body {
+    height: 100vh;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+
+#btnapps {
+    font-size: 28px;
+    color: rgb(102, 99, 99);
+}
+
+.profilepic {
+    height: 35px;
+    border-radius: 50%;
+}
+
+.toplist {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.toplistitem {
+    padding: 5px;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+.container {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.foogle {
+    height: 120px;
+}
+
+#searchform {
+    transition: box-shadow .3s;
+    border: 1px solid rgb(231, 226, 226);
+    font-size: larger;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    width: 580px;
+    height: 45px;
+    background-image: url(images/search_black_24dp.svg), url(images/mic_black_24dp.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 23px;
+    background-position: 2%, 98%;
+    border-radius: 30px;
+}
+
+#searchform:hover {
+    box-shadow: 0 0 6px rgba(33,33,33,.3);
+}
+
+.btn {
+    transition: box-shadow .1s;
+    background-color: rgb(242, 246, 248);
+    height: 35px;
+    width: 145px;
+    margin: 0 3px 0 3px;
+    padding: 7px 18px 7px 18px;
+    border: 0px solid rgb(138, 134, 134);
+    border-radius: 4px;
+    color: rgb(86, 89, 90);
+    font-size: small;
+}
+
+.btn:hover {
+    box-shadow: 0 0 2.5px rgb(184, 182, 182);
+}
+
+
+.bottomnav {
+    position:fixed;bottom:0;left:0;right:0;height:50px; 
+    background-color: rgb(237, 237, 243);
+    border-top: 1px solid rgb(204, 197, 197);
+    color: rgb(117, 114, 114);
+    font-size: smaller;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottomlistleft {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.bottomlistright {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+
+
+.bottomlistitem {
+    padding-left: 15px;
+    margin-right: 15px;
+
+}
+/* https://michalosman.github.io/google-homepage/# */
